@@ -5,7 +5,8 @@
 <p>H1~H3은 검색키워드로 활용가능하다. H4~H6 꼭필요한 경우만 이용하거나 권장안함</p>
 <p>block과 inline태그는 의미에 맞게 외부/내부 구조로 구성해서 사용해야 한다.(의미 중첩되지 않도록)</p>
 <hr>
-<h2>23.02.14 first - html</h2>
-
+<h2>23.02.14 - html - 문서태그</h2>
+<p> &lt;,&gt;,em,strong, sub, sup, del, blockquote, q, address, code</p>
+<p>gnb, lnb, snb, fnb, breadcrum</p>
 <hr>
 
