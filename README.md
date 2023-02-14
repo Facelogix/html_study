@@ -8,5 +8,6 @@
 <h2>23.02.14 - html - 문서태그</h2>
 <p> &lt;,&gt;,<em>em</em>,<strong>strong</strong>, <sub>sub</sub>, <sup>sup</sup>, <del>del</del>, blockquote, q, address, code</p>
 <p>gnb, lnb, snb, fnb, breadcrum</p>
+<blockquote site="html : 다양한 문서 구조 태그+블록과 인라인 기본&활용 공부"> 유나쌤블로그 참조 - https://webty.tistory.com/85</blockquote>
 <hr>
 
