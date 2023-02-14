@@ -6,7 +6,7 @@
 <p>block과 inline태그는 의미에 맞게 외부/내부 구조로 구성해서 사용해야 한다.(의미 중첩되지 않도록)</p>
 <hr>
 <h2>23.02.14 - html - 문서태그</h2>
-<p> &lt;,&gt;,em,strong, sub, sup, del, blockquote, q, address, code</p>
+<p> &lt;,&gt;,<em>em</em>,<strong>strong</strong>, <sub>sub</sub>, <sup>sup</sup>, <del>del</del>, blockquote, q, address, code</p>
 <p>gnb, lnb, snb, fnb, breadcrum</p>
 <hr>
 
