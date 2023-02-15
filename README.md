@@ -17,10 +17,11 @@
   <li> ul 순서가 없는 목록 </li>
   <li> 형제 유형은 일치해야 한다 </li>
   <li> 나머지 태그는 그 자식, 자손 태그에 삽입해야함</li>
-  <li> 정의형 목록태그</li>
-  <li>dl, dt, dd</li>
-  <li>dl은 dt, dd 의 부모태그로만 사용</li>
-  <li>dt가 먼저 쓰고 뒤로 dd를 쓴다</li>
-</ul>
+<dl>
+  <dt><strong>정의형 목록태그</strong></dt>
+    <dd>dl, dt, dd</dd>
+    <dd>dl은 dt, dd 의 부모태그로만 사용</dd>
+    <dd>dt가 먼저 쓰고 뒤로 dd를 쓴다</dd>
+</dl>
 <blockquote cite="html-순차/비순차/정의형 목록태그 종류와 기초&활용법"> 유나쌤블로그 참조 - https://webty.tistory.com/147>
 <hr>
