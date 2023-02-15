@@ -12,9 +12,12 @@
 <hr>
 <h2>23.02.15 - html - 목록태그</h2>
 <ul>
-<li> ol 순서가 있는 목록 </li>
-<li> ul 순서가 없는 목록 </li>
-<li> 형제 유형은 일치해야 한다 </li>
+  <li>ul, ol, li 순서있는 목록 없는 목록 구분 확실히 해야함.</li>
+  <li> ol 순서가 있는 목록 </li>
+  <li> ul 순서가 없는 목록 </li>
+  <li> 형제 유형은 일치해야 한다 </li>
+  <li> 나머지 태그는 그 자식, 자손 태그에  </li>
+</ul>
 <br>
 <blockquote site="html : 순차/비순차/정의형 목록태그 종류와 기초&활용법"> 유나쌤블로그 참조 - https://webty.tistory.com/147>
 <hr>
