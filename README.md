@@ -15,5 +15,6 @@
 <li> ol 순서가 있는 목록 </li>
 <li> ul 순서가 없는 목록 </li>
 <li> 형제 유형은 일치해야 한다 </li>
+<br>
 <blockquote site="html : 순차/비순차/정의형 목록태그 종류와 기초&활용법"> 유나쌤블로그 참조 - https://webty.tistory.com/147>
 <hr>
