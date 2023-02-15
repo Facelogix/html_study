@@ -18,6 +18,5 @@
   <li> 형제 유형은 일치해야 한다 </li>
   <li> 나머지 태그는 그 자식, 자손 태그에 삽입해야함</li>
 </ul>
-<br>
 <blockquote site="html : 순차/비순차/정의형 목록태그 종류와 기초&활용법"> 유나쌤블로그 참조 - https://webty.tistory.com/147>
 <hr>
