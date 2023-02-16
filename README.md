@@ -25,3 +25,23 @@
 </dl>
 <blockquote cite="html-순차/비순차/정의형 목록태그 종류와 기초&활용법"> 유나쌤블로그 참조 - https://webty.tistory.com/147>
 <hr>
+<div class="study">
+  <h2>23.02.16 - html - 레이아웃태그</h2>
+  <dl>
+    <dt>레이아웃태그</dt>
+    <dd>div</dd>
+    <dd>span</dd>
+    <dd>시멘틱태그</dd>
+      <ul>
+        <li>header : </li>
+        <li>section</li>
+        <li>nav</li>
+        <li>aside</li>
+        <li>arcticle</li>
+        <li>footer</li>
+        <li>main</li>  
+      </ul>
+  </dl>
+</div>
+<blockquote cite="html : 레이아웃태그 기본&활용 공부"> 유나쌤블로그 참조 - https://webty.tistory.com/88>
+<hr>
