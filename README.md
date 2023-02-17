@@ -45,3 +45,9 @@
 </div>
 <blockquote cite="html : 레이아웃태그 기본&활용 공부"> 유나쌤블로그 참조 - https://webty.tistory.com/88>
 <hr>
+  <h2>23.02.17 - html - 링크태그 </h2>
+  <p>절대경로, 상대경로(주로쓰임) : 끝에 확장자를 반드시 붙여야함
+  </p>
+<blockquote cite="html : 하이퍼링크 <a> 태그 & 절대경로, 상대경로"> 유나쌤블로그 참조 - [https://webty.tistory.com/88](https://webty.tistory.com/148)>
+  <hr>
+  
