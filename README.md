@@ -17,13 +17,14 @@
   <li> ul 순서가 없는 목록 </li>
   <li> 형제 유형은 일치해야 한다 </li>
   <li> 나머지 태그는 그 자식, 자손 태그에 삽입해야함</li>
+</ul>
 <dl>
   <dt><strong>정의형 목록태그</strong></dt>
     <dd>dl, dt, dd</dd>
     <dd>dl은 dt, dd 의 부모태그로만 사용</dd>
     <dd>dt가 먼저 쓰고 뒤로 dd를 쓴다</dd>
 </dl>
-<blockquote cite="html-순차/비순차/정의형 목록태그 종류와 기초&활용법"> 유나쌤블로그 참조 - https://webty.tistory.com/147>
+
 <hr>
 <div class="study">
   <h2>23.02.16 - html - 레이아웃태그</h2>
@@ -43,38 +44,38 @@
       </ul>
   </dl>
 </div>
-<blockquote cite="html : 레이아웃태그 기본&활용 공부"> 유나쌤블로그 참조 - https://webty.tistory.com/88>
+
 <hr>
   <h2>23.02.17 - html - 링크태그 </h2>
   <p>절대경로, 상대경로(주로쓰임) : 끝에 확장자를 반드시 붙여야함
   </p>
-<blockquote cite="html : 하이퍼링크 <a> 태그 & 절대경로, 상대경로"> 유나쌤블로그 참조 - [https://webty.tistory.com/88](https://webty.tistory.com/148)>
+
   <hr>
-<h2>23.02.20-Table</h2>
+  <h2>23.02.20-Table</h2>
 <hr>
   <table>
-    <thead>
-      <tr>
-        <th>구분</th>
-        <th>태그명</th>
-        <th>의미</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td rowspan="3">block</td>
-        <td>&lt;tr&gt;</td>
-        <td>가로행 태그</td>
-      </tr>
-      <tr>
-        <td>&lt;td&gt;</td>
-        <td>내용(열)태그</td>
-      </tr>
-      <tr>
-        <td>&lt;th&gt;</td>
-        <td>제목(열)태그</td>
-      </tr>
-    </tbody>
+  <thead>
+    <tr>
+      <th>구분</th>
+      <th>태그명</th>
+      <th>의미</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3">block</td>
+      <td>&lt;tr&gt;</td>
+      <td>가로행 태그</td>
+    </tr>
+    <tr>
+      <td>&lt;td&gt;</td>
+      <td>내용(열)태그</td>
+    </tr>
+    <tr>
+      <td>&lt;th&gt;</td>
+      <td>제목(열)태그</td>
+    </tr>
+  </tbody>
   </table>
       
   
