@@ -50,4 +50,31 @@
   </p>
 <blockquote cite="html : 하이퍼링크 <a> 태그 & 절대경로, 상대경로"> 유나쌤블로그 참조 - [https://webty.tistory.com/88](https://webty.tistory.com/148)>
   <hr>
+<h2>23.02.20-Table</h2>
+<hr>
+  <table>
+    <thead>
+      <tr>
+        <th>구분</th>
+        <th>태그명</th>
+        <th>의미</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="3">block</td>
+        <td>&lt;tr&gt;</td>
+        <td>가로행 태그</td>
+      </tr>
+      <tr>
+        <td>&lt;td&gt;</td>
+        <td>내용(열)태그</td>
+      </tr>
+      <tr>
+        <td>&lt;th&gt;</td>
+        <td>제목(열)태그</td>
+      </tr>
+    </tbody>
+  </table>
+      
   
