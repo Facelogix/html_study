@@ -88,7 +88,7 @@
     <label><input type="radio" name="quiz" value="class">2.  class</label>
     <label><input type="radio" name="quiz" value="name">3.  name</label><br>
     <hr>
-    <span>2. 다음 중 옵션의 목록이 부주제로 크게 분리될 경우 사용하는 태그는 무엇인가?</span><br>
+    <span>2. 다음 중 옵션의 목록이 부주제로 크게 분리될 경우 옵션을 묶는데 사용하는 태그는 무엇인가?</span><br>
     <label><input type="radio" name="quiz2" value="optgroup">1. optgroup </label>
     <label><input type="radio" name="quiz2" value="submit">2. submit</label>
     <label><input type="radio" name="quiz2" value="select">3. select</label>
