@@ -94,5 +94,78 @@
     <label><input type="radio" name="quiz2" value="select">3. select</label>
   </fieldset>
 </form>
+<hr>
+<h2>23.02.22-css-style</h2>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+html,body,h1,h2,h3,h4,h5,h6,p,blockquote,ul,ol,li,dl,dt,dd,address,video,/* block */
+strong,s,del,em,sub,sup,q,code,img,a, /* inline */
+table,tr,th,td,thead,tbody,tfoot,/* table */
+form,fieldset,legend,input,button,label,textarea,select,option,/* form */
+header,main,footer,section,article,aside,nav,figure,figcaption,div,span{
+    /* 글꼴적용방법 1. 사용자 컴퓨터에 내장된 글꼴 불러오기 */
+    /* (위)주의사항 : 해당글꼴이 접속한 사용자에게 없을경우 글꼴이 임의의 다른 글꼴로 대체될 수 있다. */
+    /* font-family:'맑은 고딕',sans-serif; */
+    /* font-family:'궁서체',serif; */
+
+    /* 글꼴적용방법 2. 웹 주소 글꼴을 가져오는 방법 */
+    font-family: 'Noto Sans KR', sans-serif;    
+    margin:0; padding:0;
+    font-size:1.0rem;
+    font-weight:normal;
+    font-style:normal;
+    line-height:1.0;
+    list-style:none;
+}
+a {text-decoration:none; color:#000;}
+table,tr,th,td {border-collapse:collapse;}
+button {cursor:pointer; border:none; background:none;}
+/hr
+/* header------------------------------------------------------------------ */
+header {}
+header h1 {}
+header h1 a {}
+header h1 a img {}
+header nav {}
+header nav a {font-size:1.063em;}
+header .lnb {}
+header .lnb a {}
+/* footer -------------------------------------------------------------------*/
+footer {}
+footer .ft_top {}
+footer .ft_top .ft_left {}
+footer .ft_top .ft_left a {}
+footer .ft_top .ft_right {}
+footer .ft_top .ft_right a {}
+footer address {}
+footer address+p {}
+/* main ---------------------------------------------------------------------*/
+main {}
+/* 공통 배경-------------------------------------- */
+main .bg {background-color:#f1f1f1}
+main .bg_w {}
+/* 현재 페이지 경로 ----------------------------------*/
+main .bg .top {}
+main .bg .top dt {}
+main .bg .top dd {}
+main .bg .top dd span {}
+main .bg .top dd em {}
+/* 경영이념 제목 -------------------------------*/
+main .bg_w .title {}
+main .bg_w .title h1 {font-size:2.5em;}
+main .bg_w .title p {}
+/* 경영이념 내용 ---------------------------------*/
+main .bg .contents {}
+main .bg .contents p {}
+/* 경영이념 vision------------------------------- */
+main .bg_w .contents {}
+main .bg_w .contents h2 {font-size:1.375em;}
+main .bg_w .contents p {}
+/* rudduddlsua goal, strategy---------------- */
+main .bg .contents h2 {}
+main .bg .contents ul {}
+main .bg .contents ul li {}
+main .bg .contents ul li h3 {}
+main .bg .contents ul li p {}
 
   
