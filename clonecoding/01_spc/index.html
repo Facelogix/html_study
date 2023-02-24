@@ -11,12 +11,17 @@
     <title>경영이념 | spc삼립</title>
     <link href="./styles/main.css" rel="stylesheet" type="text/css">
     <link href="./styles/reset.css" rel="stylesheet" type="text/css"><!-- 외부스타일시트 -->
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/fav_spc.png" type="image/x-icon">
+    <link rel="icon" href="./images/fav_spc.png" type="image/x-icon">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
         <h1><a href="#"><img src="./images/logo.png" alt="spc삼립"></a></h1>
         <nav>
-            <a href="#">company</a>
+            <a href="#" class="active">company</a>
             <a href="#">brands</a>
             <a href="#">ir</a>
             <a href="#">sns</a>
@@ -29,10 +34,18 @@
     </header>
     <!-- footer, top, group, ft_top, ft_g, top_bar  -->
     <main>
-        <div class="bg">
+        <div class="bg_path border">
             <dl class="top"><!-- 묵어주는 태그(dl, ul, ol) 가 있을때 div 생략 -->
-                <dt>현재 페이지 경로</dt>
-                <dd>home <span>company</span> spc삼립 소개 <em>경영이념</em></dd>
+                <dt class="skip">현재 페이지 경로</dt>
+                <dd class="path">
+                    <i class="fa-solid fa-house" title="홈으로"></i>
+                    <i class="fa-solid fa-chevron-right" title=""></i>
+                    <span>company</span>
+                    <i class="fa-solid fa-chevron-right" title=""></i>
+                    spc삼립 소개 
+                    <i class="fa-solid fa-chevron-right" title=""></i>
+                    <em>경영이념</em>
+                </dd>
             </dl>
         </div>
         <div class="bg_w">
@@ -63,13 +76,13 @@
         <div class="bg">
             <div class="contents">
                 <h2>goal</h2>
-                <ul>
-                    <li>매출 2.7조</li>
+                <ul class="goal_list">
+                    <li class="bg_1">매출 2.7조</li>
                     <li>영업이익5%</li>
-                    <li>기업가치 2.5조</li>
+                    <li class="bg_2">기업가치 2.5조</li>
                 </ul>
                 <h2>strategy</h2>
-                <ul>
+                <ul class="strategy_list">
                     <li>
                         <h3>Value Up</h3>
                         <p>브랜드 및 고부가 제품<br> 라인업 강화</p>

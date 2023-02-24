@@ -1,0 +1,36 @@
+.a {
+    font-size:3rem;
+    background-color:aqua;
+    display:inline-block;
+    width:300px; height:200px;
+}
+.b {
+    font-size:5rem;
+    background-color:pink;
+    display:inline-block;
+    width:200px; height:150px;
+}
+.box {
+    font-size:;
+    background-color:;
+    display:;
+    width:100px; height:100px;
+}
+.c {
+    font-size:;
+    background-color:yellow;
+    display:;
+    width:; height:;
+}
+.d {
+    font-size:;
+    background-color:skyblue;
+    display:;
+    /* width:50px; height:80px; */
+    /* box-sizing:border-box; */ /* 기존값에 맞춰서 보정 */
+    padding:41px;
+    margin: 20px;
+}
+/* margin: 요소와 요소 사이 */
+/* padding: 요소와 그 안 내용 사이 */
+
