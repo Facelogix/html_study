@@ -167,5 +167,9 @@ main .bg .contents ul {}
 main .bg .contents ul li {}
 main .bg .contents ul li h3 {}
 main .bg .contents ul li p {}
-
+<hr>
+<h2>23.02.24 - css -  </h2>
+  CSS : 크기/여백/테두리 속성 + 인라인, 블록, 인라인-블록 개념
+  CSS : 글자 표현 속성(글꼴, 크기, 자간, 행간, 색상)
+  CSS : 폰트어썸(Font-awesome) 연결과 사용법
   
