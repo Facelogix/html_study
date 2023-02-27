@@ -175,38 +175,16 @@ main .bg .contents ul li p {}
   
  <hr>
 <h2>23.02.27 - css - float </h2>
-  .warp {
-    background-color: aqua;
-    width:500px; 
-    /* 자식에 float적용 시 생기는 부모 오류 해결법 */
-    /* 1. 높이강제부여 */
-    /* height:100px; */
-    /* 2. 자식높이재인식 */
-    /* overflow:hidden; */
-}
-    /* 3. 가상자식생성 */
-.warp::after {clear:both; display:block; content:'d';}
-.warp .a {
-    border:5px solid red;
-    float:left;
-}
-.warp .b {
-    border:5px solid blue;
-    float:right;
-}
-.warp .c {
-    border:5px solid green;
-    clear:both;/* 이전 형제 float 위치 제거 -> 새로운 행 선언 */
-    /* css는 html 순서와 상관없이 디자인에 필요한 순서를 재창조 할 수 있다 */
-}
+ 
+    /* 자식에 float적용 시 생기는 부모 오류 해결법 */ <br>
+    /* 1. 높이강제부여 */ <br>
+    /* height:100px; */ <br>
+    /* 2. 자식높이재인식 */ <br>
+    /* overflow:hidden; */ <br>
 
-.warp .z {
-    width:100px; height:100px;
-    background-color: yellow;
-}
-.next {
-    width:500px; height:250px;
-    background-color: gold;
-}
+    /* 3. 가상자식생성 */ <br>
+
+    clear:both;/* 이전 형제 float 위치 제거 -> 새로운 행 선언 */ <br>
+    /* css는 html 순서와 상관없이 디자인에 필요한 순서를 재창조 할 수 있다 */ <br>
 <hr>
   
