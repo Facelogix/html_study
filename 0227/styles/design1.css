@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@300;400;500&display=swap');
+
+.path {
+    width:50vw; height:100vh;
+    background-color:lightgrey;
+}
+.path dl {background-color: cadetblue;}
+.path dl dt {}
+.path dl dd {background-color: chartreuse;}
+.path dl dd i {}
+.path dl dd span {
+    background-color: brown;
+    display:inline-block;
+    margin:5px 10px 30px 0;
+    /* margin-left: 20px;
+    margin:0 0 0 20px; */
+}
+.path dl dd a {
+    background-color: cornflowerblue;
+    /* width:120px; */
+    padding:10px 30px 10px 0;
+    display:inline-block; 
+}
+.path dl dd .noto {font-family: 'Noto Sans KR', sans-serif;}
+.path dl dd .nanum {font-family: 'Nanum Gothic', sans-serif;}
