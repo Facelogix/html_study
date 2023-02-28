@@ -1,22 +1,74 @@
+/* all_layout */
+header,
+main > div > *,
+/* main .bg_path .top,
+main .bg_w .title,
+main .bg .contents,
+main .bg_w .contents, */
+footer .ft_top,
+footer address,
+footer > p {
+    border:5px solid red;
+    width:1200px; margin:0 auto;
+}
+main > div > * {
+    text-align:center;
+}
 /* header------------------------------------------------------------------ */
-header {}
-header h1 {}
-header h1 a {}
-header h1 a img {width:60px;}/* 이미지크기는 가로세로중 하나만 기입 */
-header nav {}
-header nav a {font-size:1.063rem;}
+header {
+    height:92px;
+}
+header h1 {
+    float: left;
+    padding: 5px;
+    
+}
+header h1 a {
+}
+header h1 a img {
+    width:60px;
+}/* 이미지크기는 가로세로중 하나만 기입 */
+header nav {
+    float: left;
+    line-height:92px;
+    margin-left:300px;
+}
+header nav a {
+    font-size:1.063rem;
+    padding-left:30px;
+    
+}
 header nav .active {color:#36b4e5;}
-header .lnb {}
-header .lnb a {}
+header .lnb {
+    float:right;
+    line-height:92px;
+}
+header .lnb a {
+    
+}
+header .lnb a:nth-child(2)::before {
+    content:'|';
+    display:inline;
+    padding-left:10px;
+    margin-right:10px;
+}
 /* footer -------------------------------------------------------------------*/
-footer {}
-footer .ft_top {}
-footer .ft_top .ft_left {}
+footer {
+    padding:50px 0;
+}
+footer .ft_top {
+    overflow: hidden;
+}
+footer .ft_top .ft_left {
+    float:left;
+}
 footer .ft_top .ft_left a {
     font-size:1.068rem;
     font-weight:600;
 }
-footer .ft_top .ft_right {}
+footer .ft_top .ft_right {
+    float:right;
+}
 footer .ft_top .ft_right a {
     font-size:1.063rem;
     text-transform:uppercase;
@@ -24,8 +76,8 @@ footer .ft_top .ft_right a {
     display:inline-block;
     padding:10px 20px;
 }
-footer address {}
-footer address+p {}
+footer address {line-height:1.5;}
+footer address+p {padding-top:15px;}
 /* main ---------------------------------------------------------------------*/
 main {}
 /* 공통 배경-------------------------------------- */
@@ -46,6 +98,7 @@ main .border {
 main .bg_path {background-color:#f1f1f1;}
 main .bg_path .top {
     padding:20px; /* 값이 0일때 안적어도 됌 */
+    text-align: right;
 }
 main .bg_path .top dt {}
 main .bg_path .top dd {}
@@ -55,7 +108,6 @@ main .bg_path .top dd em {
 }
 /* 경영이념 제목 -------------------------------*/
 main .bg_w .title {
-    margin:40px;
 }
 main .bg_w .title h1 {
     font-size:2.5rem;
@@ -82,6 +134,9 @@ main .bg_w .contents p {
     letter-spacing:-0.01em;
     line-height:1.5em;
 }
+main .bg_w .contents p:nth-child(2) {
+    margin-bottom: 100px;
+}
 /* rudduddlsua goal, strategy---------------- */
 main .bg .contents h2 {
     font-size:1.25rem;
@@ -90,23 +145,41 @@ main .bg .contents h2 {
     
 }
 main .bg .contents ul {
+    /* overflow:hidden; */
+    display: inline-block;
+    /* float의 부모높이 0처리 오류해결방법으로 display:inline-block도 가능하다 */
 }
- 
+main .bg .contents h2:nth-child(3) {
+    margin: 30px;
+}
 main .bg .contents .goal_list li {
     width:250px; height:250px;
     border-radius:50%;
+    line-height:250px;
+    float:left;
+    box-shadow:0 0 10px gray;
+    display: inline-block;
+    margin-left:-10px;
 }
 main .bg .contents .strategy_list li {
     width:180px; height:180px;
     border-radius:50%;
+    /* display:inline-block; */
+    float:left;
+    padding:55px 20px 0;
+    /* box-shadow:w y blur color; */
+    box-shadow:0 0 10px gray;
 }
 main .bg .contents ul li {
     font-size:1.5rem;
     letter-spacing:-0.02em;
     background-color:#fff
+    /* line-height:-1.0em; */
 }
 main .bg .contents ul .bg_1 {
     background-color:#36b4e5;
+    
+    
     
 
 }
@@ -115,7 +188,6 @@ main .bg .contents ul .bg_2 {
     background-color:#f3c300}
 
 main .bg .contents ul li h3 {
-
     font-size:1.063rem;
 }
 main .bg .contents ul li p {

@@ -1,0 +1,31 @@
+.box .container::after {clear:both; display:block; content:'';}
+.box {
+    background-color: aqua;
+    
+}
+.box .container {
+    background-color: pink;
+    width: 800px;px;
+    padding:50px;
+    margin:0 auto; /* block 가운데정렬(인라인은 크기를 가질수 없음) */
+    /* overflow: hidden; */
+}
+.box .container > * {width: 100px; height:100px;}
+.box .container h1 {
+    background-color: lime;
+    float: left;
+    text-align:center; /* inline 가운데정렬 */
+    /* padding-top:40px; */
+    line-height:100px;/* 주의할점 1줄일때만 가능 , 수직가운데정렬 */
+}
+.box .container p {
+    background-color: coral;
+    float: right;
+    text-align:right;
+    line-height:100px;
+}
+.box .container h1+p {
+    background-color: yellow;
+    float: left;
+    text-align:center;
+}
