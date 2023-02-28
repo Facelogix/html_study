@@ -8,7 +8,7 @@ main .bg_w .contents, */
 footer .ft_top,
 footer address,
 footer > p {
-    border:5px solid red;
+    /* border:5px solid red; */
     width:1200px; margin:0 auto;
 }
 main > div > * {
