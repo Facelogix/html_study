@@ -12,7 +12,7 @@ header,main,footer,section,article,aside,nav,figure,figcaption,div,span{
     font-style:normal;
     line-height:1.0;
     list-style:none;
-    font-family: 'Nanum Gothic', "Font Awesome 5 Free", "Font Awesome 5 Barands" sans-serif;
+    font-family: 'Nanum Gothic', "Font Awesome 5 Free", "Font Awesome 5 Barands", sans-serif;
 }
 a {text-decoration:none; color:#000;}
 table,tr,th,td {border-collapse:collapse;}
