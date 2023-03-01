@@ -1,0 +1,52 @@
+main {
+    width:850px;
+    border:1px solid #dcdcdc;
+    margin:0 auto;
+}
+main .top {
+    height:100px;
+    border-bottom:1px solid #dcdcdc;
+    padding:0 25px;
+}
+main .top h1 {
+    float:left;
+    font-size:1.25rem;
+    line-height:100px;
+}
+main .top .path {
+    float:right;
+}
+main .top .path dd {
+    font-size:0.875rem;
+    line-height:100px;
+}
+main .top .path dd em {
+    font-size:0.875rem;
+    font-weight:700;
+}
+main .contents {
+    margin:100px 25px;
+}
+main .contents h2 i {
+    margin-right:10px;
+}
+main .contents h2 {
+    font-size:1.063rem;
+    color:blue;
+    font-weight:700;
+}
+main .contents .bold em {
+    font-size:1.875rem;
+    color:green;
+}
+main .contents .bold {
+    font-size:1.875rem;
+    margin-left:50px;
+    letter-spacing:-0.05em;
+    line-height:1.5;
+}
+main .contents p {
+    margin-top:50px;
+    letter-spacing:-0.05em;
+    line-height:1.5;
+}
