@@ -1,0 +1,54 @@
+#t {
+    width:1200px;
+    margin:50px auto 0;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+#t thead {
+    border-top: 3px solid #333;
+    background-color: #fafafa;
+    border-bottom: 1px solid #e5e5e5;
+}
+#t thead tr {
+}
+#t thead tr span{
+    line-height: 2.0em;
+    color:#999;
+}
+#t thead tr th {
+    padding:40px 0;
+    line-height: 1.3em;
+    border-top: 1px dashed #999;    
+}
+#t thead tr th span {
+    
+}
+/* #t thead tr:first-child th:first-child {} */
+#t thead tr .logo {
+    
+    background-image: url(../images/pay_table_02.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#t tbody {
+    
+}
+#t tbody tr {
+    
+    border-bottom: 1px solid #e5e5e5;
+    
+}
+#t tbody tr th {
+/*     line-height: 60px; */
+}
+#t tbody tr td {}
+#t tbody tr td em {
+    font-weight: 600;
+}
+#t tbody tr td span{
+    color:#ec018c;
+}
+#t tbody tr th, #t tbody tr td {
+    padding:25px 0;
+    /* text-align: center; */ /* text-aline 값을 초기화 했을때 제일 근접한 선택자로 적용 */
+}

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+*{box-sizing:border-box;}
+html,body,h1,h2,h3,h4,h5,h6,p,blockquote,ul,ol,li,dl,dt,dd,address,video,/* block */
+strong,s,del,em,sub,sup,q,code,img,a /* inline */
+table,tr,th,td,thead,tbody,tfoot,/* table */
+form,fieldset,legend,input,button,label,textarea,select,option/* form */
+header,main,footer,section,article,aside,nav,figure,figcaption,div,span{
+    margin:0; padding:0;
+    font-size:1.0rem;
+    font-weight:normal;
+    font-style:normal;
+    line-height:1.0;
+    list-style:none;
+    font-family: 'Nanum Gothic', "Font Awesome 5 Free", "Font Awesome 5 Barands", sans-serif;
+}
+a {text-decoration:none; color:#000;}
+table,tr,th,td {border-collapse:collapse;}
+button {cursor:pointer; border:none; background:none;}.awesome::after,
+.awesome::before {font-weight:600;}

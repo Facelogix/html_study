@@ -80,6 +80,10 @@ footer address {line-height:1.5;}
 footer address+p {padding-top:15px;}
 /* main ---------------------------------------------------------------------*/
 main {}
+main .contents {
+    /* 배경이미지 속성 */
+    background-image: url(../ima);
+}
 /* 공통 배경-------------------------------------- */
 main .bg {
     background-color:#f1f1f1;
@@ -190,6 +194,4 @@ main .bg .contents ul .bg_2 {
 main .bg .contents ul li h3 {
     font-size:1.063rem;
 }
-main .bg .contents ul li p {
-    
-}
+main .bg .contents ul li p {}
