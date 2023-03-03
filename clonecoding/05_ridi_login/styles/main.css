@@ -1,0 +1,103 @@
+/* 속성선택자 */
+/* input[type*=ss] {background-color:aqua;}
+input[name*=id] {background-color:coral;}
+button[type$=it] {background-color: yellow;} */
+
+
+/* 색상 #1f8ce6 #ccc #ebf6ff*/
+/* 폰트 12- 0.750rem     14- 0.875em      16 */
+
+body {
+    background-color: #ebf6ff;
+    
+}
+/* --------------header ----------------- */
+header {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+}
+header h1 {}
+header h1 em {
+    text-transform: uppercase;
+    color:#1f8ce6;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+}
+/*------------------ main --------------
+ */
+main {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+main #loginFrm {}
+main #loginFrm fieldset {}
+/* ------------- 입력 박스------------ */
+main #loginFrm fieldset ul {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+main #loginFrm fieldset ul li {
+    
+    border-top: 1px solid #ccc;
+}
+main #loginFrm fieldset ul li:first-child {
+    border: 0;
+}
+main #loginFrm fieldset ul li input[name*=user] {
+    width:350px; height: 50px;
+    border: 0; padding:15px;
+    outline:none;/* 클릭시 경계선 제거 */
+    background-color: #fff;
+}
+main #loginFrm fieldset ul li:last-of-type {
+    width: 350px; height:35px;
+    border: 1px solid #ccc;
+    background-color: #f7fbff;
+    overflow: hidden; 
+}
+
+main #loginFrm fieldset ul li label {
+    float: left;
+    font-size: 0.750rem;
+    line-height: 35px;
+    padding-left: 10px;
+}
+main #loginFrm fieldset ul li label input[type$=box] {}
+main #loginFrm fieldset ul li label span {
+    font-size: 0.750rem;
+    line-height: 35px;
+    
+}
+main #loginFrm fieldset ul li span {
+    float:right;
+    line-height: 35px;
+    padding-right: 10px;
+}
+main #loginFrm fieldset ul li span a {
+    font-size: 0.875rem;
+
+    /* float: right; */
+    
+}
+/* ----------------  버튼 그룹 ----------- */
+main #loginFrm fieldset .submit_bt {
+    text-align: center;
+}
+main #loginFrm fieldset .submit_bt button {
+    margin:15px 0;
+    border-radius: 5px;
+    width: 350px; height: 45px;
+    background-color: #1f8ce6;
+    color: #fff;
+}
+main #loginFrm fieldset .submit_bt a {
+    line-height: 45px;
+    border-radius: 5px;
+    display: block;
+    width: 350px; height: 45px;
+    background-color: #fff;
+    margin:0 auto;
+}
