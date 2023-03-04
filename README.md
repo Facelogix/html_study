@@ -187,4 +187,12 @@ main .bg .contents ul li p {}
     clear:both;/* 이전 형제 float 위치 제거 -> 새로운 행 선언 */ <br>
     /* css는 html 순서와 상관없이 디자인에 필요한 순서를 재창조 할 수 있다 */ <br>
 <hr>
+
+<h2>23.03.04 - css - 복습 </h2>
+
+text-overflow: ellipsis; 외부 처리를 말줄임...
+white-space:nowarp; 한줄처리
+overflow: hidden; 정해진 크기 안에서만 보이기
+
+
   
