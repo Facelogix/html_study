@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex_02</title>
+    <link href="./styles/reset.css" rel="stylesheet" type="text/css">
+    <style>
+        .container {
+            background-color: aqua; margin:20px; padding:10px;
+            display: flex;
+            height: 400px; width: 300px;
+        }
+        .container > * {
+            width: 100px; height: 100px; 
+            border: 2px solid #000;
+            font-size: 1.5rem;
+            /* text-align: center;
+            line-height: 50px; */
+        }
+        .container:nth-child(1) {
+            height: 400px; width: 400px;
+            flex-flow:row wrap;
+            justify-content: center;
+            align-content: center;
+        }
+        .container:nth-child(2) {
+            flex-flow:row nowrap;
+            align-items: flex-end;
+        }
+        .container:nth-child(3) {
+            flex-flow:row-reverse wrap;
+            justify-content: flex-start;
+            align-content: center;
+        }
+        .container:nth-child(4) {
+            flex-flow:row wrap;
+            justify-content: flex-end;
+            align-content: space-between;
+
+        }
+        .container .item {}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+    <div class="container">
+        <div class="item">2-1</div>
+        <div class="item">2-2</div>
+        <div class="item">2-3</div>
+        <div class="item">2-4</div>
+    </div>
+    <div class="container">
+        <div class="item">3-1</div>
+        <div class="item">3-2</div>
+        <div class="item">3-3</div>
+        <div class="item">3-4</div>
+    </div>
+    <div class="container">
+        <div class="item">4-1</div>
+        <div class="item">4-2</div>
+        <div class="item">4-3</div>
+        <div class="item">4-4</div>
+    </div>
+</body>
+</html>

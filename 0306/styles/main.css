@@ -1,0 +1,31 @@
+#warp {
+    background-color:lightgrey;
+}
+#warp > * {width:1000px; margin:0 auto;}
+#warp header {
+    background:yellow; height:100px;
+}
+#warp nav {
+    background: coral; height:50px;
+    text-align:center;
+    position:sticky; top:10px;
+}
+#warp nav a {line-height:50px; margin-right:20px ;}
+#warp nav a:last-child {
+    margin-right:0;
+}
+#warp section {
+    background-color: aqua; height: 300vh;
+    position:relative;
+}
+#warp section * {width:200px; height:200px;}
+#warp section h1 {
+    background: lime;
+    position: absolute; left: 0; top: 0;
+    z-index:200;
+}
+#warp section h2 {
+    background: pink;
+    position:absolute; left:100px; top:100px;
+    z-index:100;
+}
