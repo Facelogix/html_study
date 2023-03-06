@@ -1,4 +1,7 @@
-
+body > * {background-color:#e1e1e1;}
+header, main, footer {
+    display:flex;
+}
 /* -------------- header -------------- */
 header {}
 header h1 {}
@@ -7,7 +10,6 @@ header h1 a img {}
 header .gnb {}
 header .gnb a {}
 header .lnb {}
-
 /* ---------------  main ---------------- */
 main {}
 /* 매인 영상+이미지 */
@@ -16,14 +18,14 @@ main .visual video {}
 main .visual .ai {}
 main .visual .ai img {}
 
-
-/* board list 01 */
+/* board list news */
 main .board {}
 main .board .news {}
 main .board .news p {}
 main .board .news p em {}
 main .board .news h2 {}
-/* board list 02 */
+
+/* board list company */
 main .board .company {}
 main .board .company p {}
 main .board .company p:nth-of-type(1) {background-color: aqua;}
@@ -32,11 +34,13 @@ main .board .company p:nth-of-type(3) {background-color: chartreuse;}
 main .board .company h2 {}
 main .board .company h2:nth-of-type(1) {background-color:darkgreen}
 main .board .company h2:nth-of-type(2) {background-color: darkorange;}
-/* board list 03 */
+
+/* board list partnership */
 main .board .partnership {}
 main .board .partnership p {}
 main .board .partnership h2 {}
-/* gallery list 01 */
+
+/* gallery list service */
 main .gallery {}
 main .gallery .service {}
 main .gallery .service p{}
@@ -44,14 +48,19 @@ main .gallery .service p em {}
 main .gallery .service img {}
 main .gallery .service h2 {}
 
+/* gallery list technology */
+main .gallery .technology {}
+main .gallery .technology p {}
+main .gallery .technology p em {}
+main .gallery .technology img {}
+main .gallery .technology h2 {}
 
-/* gallery list 02 */
-
-
-
-/* gallery list 03 */
-
-
+/* gallery list careers */
+main .gallery .careers {}
+main .gallery .careers p {}
+main .gallery .careers p em {}
+main .gallery .careers img {}
+main .gallery .careers h2{}
 
 /* ---------------- footer --------------- */
 footer {}
