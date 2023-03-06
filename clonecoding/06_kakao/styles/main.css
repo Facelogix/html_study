@@ -1,9 +1,15 @@
 body > * {background-color:#e1e1e1;}
 header, main, footer {
-    display:flex;
+    /* display:flex; */ 
 }
 /* -------------- header -------------- */
-header {}
+header {display:flex;
+    /* padding:0 20px;
+    line-height:; */
+    flex-flow:row nowrap;
+    justify-content: space-between;
+    position:sticky; top:0;
+}
 header h1 {}
 header h1 a {}
 header h1 a img {}
@@ -13,9 +19,18 @@ header .lnb {}
 /* ---------------  main ---------------- */
 main {}
 /* 매인 영상+이미지 */
-main .visual {}
-main .visual video {}
-main .visual .ai {}
+main .visual {
+    position:relative;
+    display:flex; flex-flow: column nowrap;
+    justify-content: center;
+}
+main .visual video {
+    position:absolute; z-index: 900;
+}
+main .visual .ai {
+    position:absolute; z-index: 990;
+    align-self: center;
+}
 main .visual .ai img {}
 
 /* board list news */
