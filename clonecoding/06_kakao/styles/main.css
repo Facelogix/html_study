@@ -1,0 +1,65 @@
+
+/* -------------- header -------------- */
+header {}
+header h1 {}
+header h1 a {}
+header h1 a img {}
+header .gnb {}
+header .gnb a {}
+header .lnb {}
+
+/* ---------------  main ---------------- */
+main {}
+/* 매인 영상+이미지 */
+main .visual {}
+main .visual video {}
+main .visual .ai {}
+main .visual .ai img {}
+
+
+/* board list 01 */
+main .board {}
+main .board .news {}
+main .board .news p {}
+main .board .news p em {}
+main .board .news h2 {}
+/* board list 02 */
+main .board .company {}
+main .board .company p {}
+main .board .company p:nth-of-type(1) {background-color: aqua;}
+main .board .company p:nth-of-type(2) {background-color: blueviolet;}
+main .board .company p:nth-of-type(3) {background-color: chartreuse;}
+main .board .company h2 {}
+main .board .company h2:nth-of-type(1) {background-color:darkgreen}
+main .board .company h2:nth-of-type(2) {background-color: darkorange;}
+/* board list 03 */
+main .board .partnership {}
+main .board .partnership p {}
+main .board .partnership h2 {}
+/* gallery list 01 */
+main .gallery {}
+main .gallery .service {}
+main .gallery .service p{}
+main .gallery .service p em {}
+main .gallery .service img {}
+main .gallery .service h2 {}
+
+
+/* gallery list 02 */
+
+
+
+/* gallery list 03 */
+
+
+
+/* ---------------- footer --------------- */
+footer {}
+footer .f_container {}
+footer .f_container .fnb {}
+footer .f_container .fnb .fnb_left {}
+footer .f_container .fnb .fnb_left a {}
+footer .f_container .fnb .fnb_right {}
+footer .f_container .f_btm {}
+footer .f_container .f_btm address {}
+footer .f_container .f_btm p {}
