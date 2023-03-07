@@ -194,5 +194,18 @@ text-overflow: ellipsis; 외부 처리를 말줄임...
 white-space:nowarp; 한줄처리
 overflow: hidden; 정해진 크기 안에서만 보이기
 
+<h2>23.03.07 - css - kakao </h2>
+*포지션 사용할때 z-index 같이 사용하는게 좋다.
+header h1 a img {width:100%;} 부모 블록에 크기를 써주고 가변형으로 하기 위해 이미지 크기는 100%로 입력
+text-overflow: ellipsis;/* 외부처리를 말줄임... */
+    white-space:wrap;/* 한줄처리 */
+    overflow: hidden;
+    /* + */
+    -webkit-line-clamp: 3; 말줄임 처리할 행 숫자
+    -webkit-box-orient: vertical;
+    display:-webkit-box;
 
-  
+footer .f_container .fnb .fnb_left a::after {
+    width: 1px; height: 15px; background-color: gray;
+    content:''; display: inline-block;
+    position:relative; right:-13px; top:2px
