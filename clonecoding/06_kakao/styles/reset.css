@@ -14,7 +14,8 @@ div,span/* 그룹태그 */
     font-style:normal;
     line-height:1.0;
     list-style:none;
-    font-family: 'nanum gothic',"Font Awesome 5 Free","Font Awesome 5 Brands", sans-serif;
+    font-family: 'Noto Sans KR', sans-serif, "Font Awesome 5 Free","Font Awesome 5 Brands";
+    /* font-family: 'nanum gothic',"Font Awesome 5 Free","Font Awesome 5 Brands", sans-serif; */
     /* font-family: 'Nanum Gothic', sans-serif; */
 }
 a {text-decoration:none; color:#000;}

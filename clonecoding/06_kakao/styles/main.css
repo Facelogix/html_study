@@ -1,89 +1,179 @@
-body > * {background-color:#e1e1e1;}
+body > * {}
 header, main, footer {
     /* display:flex; */ 
 }
 /* -------------- header -------------- */
-header {display:flex;
-    /* padding:0 20px;
-    line-height:; */
+header {width:100%;  
+    background:rgba(0,0,0,0.5);
+    height: 80px;
+    display:flex;
+    padding:0 25px;
     flex-flow:row nowrap;
     justify-content: space-between;
-    position:sticky; top:0;
+    align-items: center;
+    /* position:sticky; top:0; */
+    position: fixed; top:0; left:0; z-index: 9999; /* 포지션 사용할때 z-index 같이 사용할것 */
 }
-header h1 {}
+header h1 {width:150px;}
 header h1 a {}
-header h1 a img {}
-header .gnb {}
-header .gnb a {}
-header .lnb {}
+header h1 a img {width:100%;}/* 부모 블록에 크기를 써주고 가변형으로 % 입력 */
+header .gnb a:hover {color:#fff;}
+header .gnb a {color:#e5e5e5; margin-left:25px;}
+header .gnb a:first-child {margin-left:0;}
+
+header .lnb:hover {color:#ff0;}
+header .lnb {
+    color:#fff;
+}
+header .lnb::after {
+    content:'\f138'; display: inline-block; font-weight: 600;
+    color:#17a2b8; margin-left: 10px;
+
+}
 /* ---------------  main ---------------- */
-main {}
+main {background: #f8f9fa; 
+    /* display:flex; flex-flow: column nowrap;
+    align-items: center; */
+}
 /* 매인 영상+이미지 */
+/* main > * {margin-bottom: 50px;} */
 main .visual {
     position:relative;
-    display:flex; flex-flow: column nowrap;
-    justify-content: center;
+    height: 520px; overflow: hidden;
 }
-main .visual video {
-    position:absolute; z-index: 900;
+main .visual video {width:100%;
+    position:absolute; /* z-index: 900; */
 }
-main .visual .ai {
-    position:absolute; z-index: 990;
-    align-self: center;
+main .visual .ai {width: 480px;
+    position:absolute; /* z-index: 990; */ left:50%; top:50%;
+    transform:translate(-50%,-50%);/* x,y축으로 대상을 이동 */
+    /* align-self: center; */
 }
-main .visual .ai img {}
-
+main .visual .ai img {width:100%;}
+/* board + gallery */
+main div a h2 {
+    font-size: 1.5rem; font-weight: 600; 
+    letter-spacing: -0.02em; line-height:1.2;
+    margin: 10px 0;
+}
 /* board list news */
-main .board {}
-main .board .news {}
-main .board .news p {}
-main .board .news p em {}
-main .board .news h2 {}
+main .board {/* background: aqua; */
+    width:1140px; margin:50px auto;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+main .board a {width:32%;
+    background: #fff; padding:10px;
+    
+    
+}
+main .board a .category {
+    text-transform: uppercase;
+}
+main .board a:first-child .contents {color:gray;
+    text-overflow: ellipsis;/* 외부처리를 말줄임... */
+    white-space:wrap;/* 한줄처리 */
+    overflow: hidden;
+    /* + */
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display:-webkit-box;
+}
+main .board a h2 {
+    
+}
+main .board a p {
+    font-size: 1.2rem; letter-spacing: -0.02em;
+}
 
-/* board list company */
-main .board .company {}
-main .board .company p {}
-main .board .company p:nth-of-type(1) {background-color: aqua;}
-main .board .company p:nth-of-type(2) {background-color: blueviolet;}
-main .board .company p:nth-of-type(3) {background-color: chartreuse;}
-main .board .company h2 {}
-main .board .company h2:nth-of-type(1) {background-color:darkgreen}
-main .board .company h2:nth-of-type(2) {background-color: darkorange;}
+/* gallery list */
+main .gallery {
+    width:1140px; margin:20px auto;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+main .gallery a {
+    width:32%;
+    background: #fff; padding:10px;
+}
+main .gallery a p {
+    font-size: 1.2rem; letter-spacing: -0.02em;
+    padding: 10px;
+}
+main .gallery a .contents {
+    color: grey;
+    text-overflow: ellipsis;/* 외부처리를 말줄임... */
+    white-space:wrap;/* 한줄처리 */
+    overflow: hidden;
+    /* + */
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display:-webkit-box;
+    padding-bottom:50px ;
+}
 
-/* board list partnership */
-main .board .partnership {}
-main .board .partnership p {}
-main .board .partnership h2 {}
-
-/* gallery list service */
-main .gallery {}
-main .gallery .service {}
-main .gallery .service p{}
-main .gallery .service p em {}
-main .gallery .service img {}
-main .gallery .service h2 {}
-
-/* gallery list technology */
-main .gallery .technology {}
-main .gallery .technology p {}
-main .gallery .technology p em {}
-main .gallery .technology img {}
-main .gallery .technology h2 {}
-
-/* gallery list careers */
-main .gallery .careers {}
-main .gallery .careers p {}
-main .gallery .careers p em {}
-main .gallery .careers img {}
-main .gallery .careers h2{}
+main .gallery a h2 {
+    font-size: 1.5rem; font-weight: 600; 
+    letter-spacing: -0.02em; line-height:1.2;
+    
+}
+main .gallery a .category {
+    text-transform: uppercase;
+}
+main .gallery a .category .img {
+    margin-bottom: 30px;
+}
+main .gallery a .img img {width: 100%;}
+main .gallery a .contents {}
 
 /* ---------------- footer --------------- */
-footer {}
-footer .f_container {}
-footer .f_container .fnb {}
+footer {
+    border-top: 2px solid #333;
+}
+footer > * {/* background-color: #17a2b8; */
+    width: 1140px; margin: 20px auto;
+} 
+footer .f_container > * {margin-bottom: 20px; color:gray}
+footer .f_container {
+    
+}
+footer .f_container .fnb {/* background-color: #ff0; */
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
 footer .f_container .fnb .fnb_left {}
-footer .f_container .fnb .fnb_left a {}
-footer .f_container .fnb .fnb_right {}
-footer .f_container .f_btm {}
-footer .f_container .f_btm address {}
-footer .f_container .f_btm p {}
+footer .f_container .fnb .fnb_left a {margin-right:20px;}
+footer .f_container .fnb .fnb_left a:last-child {margin: 0;
+}
+
+footer .f_container .fnb .fnb_left a:hover {
+    text-decoration:underline;
+}
+footer .f_container .fnb .fnb_left a:last-child::after {display: none;
+    
+}
+footer .f_container .fnb .fnb_left a::after {
+    width: 1px; height: 15px; background-color: gray;
+    content:''; display: inline-block;
+    position:relative; right:-13px; top:2px
+}
+footer .f_container .fnb .fnb_right {
+    border: 1px solid #333;
+    background-color: #333;
+    border-radius: 10px;
+    color:#eee; padding:10px;
+    
+}
+footer .f_container .f_btm {
+    
+}
+footer .f_container .f_btm address {
+    font-size: 0.875rem; line-height: 1.5em;
+    
+}
+footer .f_container .f_btm p {
+    font-size: 0.875rem; letter-spacing:-0.02em; line-height: 1.2em;
+    padding:10px 0;
+}
