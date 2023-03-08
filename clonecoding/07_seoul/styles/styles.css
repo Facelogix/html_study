@@ -1,0 +1,144 @@
+/* w1152  h_top h=48  h_btm h=119 */
+
+header, main, footer {
+    width: 1152px; margin:0 auto;
+}
+/* header top */
+header {background-color: bisque;}
+header .top {background-color: burlywood;
+    height: 48px;
+    display: flex; flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header .top .t_left {
+    display: flex; flex-flow: row nowrap;
+    align-items: center;
+}
+header .top .t_left h1 {}
+header .top .t_left h1 a {}
+header .top .t_left h1 a img {width: 100%;}
+header .top .t_left nav {background-color: cadetblue;}
+header .top .t_left nav a {padding: 0 5px;}
+header .top .t_left nav a:first-child::before {
+    display: none;
+}
+header .top .t_right {background-color: chartreuse;}
+header .top .t_right a {padding: 0 5px;}
+/* header btm */
+header .bottom {background-color: cornflowerblue;
+    height: 119px;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header .bottom h1 {background-color: brown;}
+header .bottom h1 a {}
+header .bottom h1 a img {}
+header .bottom #serchFrm {}
+header .bottom #serchFrm fieldset {
+    border: 2px solid #1e6cb3; padding: 10px;
+    background-color: white;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+header .bottom #serchFrm fieldset input[name^=serch] {
+    border: none; margin-right:10px; outline: none;
+}
+header .bottom #serchFrm fieldset input[name^=serch]::placeholder {
+    color:#1e6cb3; 
+}
+header .bottom #serchFrm fieldset #serch_btn {
+    
+}
+header .bottom #serchFrm fieldset #serch_btn img {}
+header .bottom .b_right {
+    display: flex; flex-flow: column nowrap;
+    align-items: flex-end;
+}
+header .bottom .b_right .r_top {
+    /* text-align: right; */
+}
+header .bottom .b_right .r_top #lang {
+    border: 1px solid #1e6cb3;
+    
+}
+header .bottom .b_right .r_top #lang option {}
+header .bottom .b_right .r_top #go {
+    background-color:#1e6cb3;
+    padding:6px 5px; color:white;
+}
+header .bottom .b_right .r_btm {background-color: crimson;}
+header .bottom .b_right .r_btm p {
+    line-height: 1.5;
+}
+header .bottom .b_right .r_btm p:first-child {
+    font-size: 1.5rem; background-color: darkorchid;
+}
+/* main bnr warp */
+main {}
+main .bnr_wrap {background-color: chartreuse;
+    width: 1152px; margin: 0 auto;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+main .bnr_wrap .bnr_left {
+    position: relative;
+}
+main .bnr_wrap .bnr_left .bnr {
+    
+}
+main .bnr_wrap .bnr_left .bnr img {}
+main .bnr_wrap .bnr_left .close {
+    position: absolute; right:10px; bottom: 20px;
+}
+main .bnr_wrap .bnr_right {
+    width: 360px;
+    display: flex; flex-flow: column nowrap;
+    justify-content: space-between;
+}
+main .bnr_wrap .bnr_right .corona {
+    position: relative; display: block;
+}
+main .bnr_wrap .bnr_right .corona img {}
+main .bnr_wrap .bnr_right .corona span {height:26px; line-height: 26px;
+    position:absolute; display: inline-block; background-color: crimson;
+}
+main .bnr_wrap .bnr_right .corona .date {
+    top:12px; right:20px; 
+    width: 160px; text-align: right; 
+}
+main .bnr_wrap .bnr_right .corona .result {text-align: center;}
+main .bnr_wrap .bnr_right .corona .result1 {
+    top:80px; left:31px; width:140px; 
+}
+main .bnr_wrap .bnr_right .corona .result2 {
+    top:80px; right:31px; width:140px;
+}
+main .bnr_wrap .bnr_right .corona .result3 {
+    bottom: 50px; left:31px; width:95px;
+}
+main .bnr_wrap .bnr_right .corona .result4 {
+    bottom: 50px; left:145px; width: 95px;
+}
+main .bnr_wrap .bnr_right .corona .result5 {
+    bottom:51px; right:32px; width: 60px;
+}
+main .bnr_wrap .bnr_right .traffic {}
+main .bnr_wrap .bnr_right .traffic img {}
+/* srv warp */
+main .srv_wrap {background-color: aqua;}
+main .srv_wrap .srv_top {}
+main .srv_wrap .srv_top h1 {}
+main .srv_wrap .srv_top a {}
+main .srv_wrap .srv_btm {}
+main .srv_wrap .srv_btm a {}
+main .srv_wrap .srv_btm a span:first-child {
+    display: inline-block;
+    background: #ff0 
+    url(../images/icon_service/css_sprites.png) no-repeat;
+    width:60px; height:60px; text-indent:-9999px;
+}
