@@ -1,6 +1,6 @@
 /* w1152  h_top h=48  h_btm h=119 */
 
-header, main, footer {
+header, footer {
     width: 1152px; margin:0 auto;
 }
 /* header top */
