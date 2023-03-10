@@ -1,0 +1,17 @@
+/* 공통 */
+
+div div #spon {
+    background-color: aqua;
+}
+/* row01 */
+.bg {
+    background: url(../images/bg1.png) no-repeat;
+    
+}
+.bg .row01 {width: 100%; height: 800px;}
+.bg .row01 a {width: 10px; height: 10px;}
+.bg .row01 a img {}
+.bg .row01 .title {}
+.bg .row01 .title h1 {}
+.bg .row01 .title a {}
+.bg .row01 .title a img {}
