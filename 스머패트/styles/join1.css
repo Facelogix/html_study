@@ -1,0 +1,105 @@
+/* 버튼 초록색 = #08a600  바탕색 = #f5f6f7  보더색 = #cccccc*/
+body {background:#f5f6f7;}
+.select_lang, .main {margin: 0 auto;}
+.select_lang {
+    background-color: blue;
+    width: 768px; text-align: right;
+}
+.select_lang #lang {
+    border: 1px solid #ccc;
+    padding: 3px 8px;
+}
+.select_lang #lang option {}
+.main {background-color: cornflowerblue;
+    width: 460px; 
+}
+.main h1 {background-color: aquamarine;
+    display: flex; flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center; margin: 50px 0;
+}
+.main h1 a {}
+.main h1 a img {}
+/* 이용약관 체크박스 */
+.main #mbFrm {background-color: cadetblue;}
+.main #mbFrm fieldset {}
+.main #mbFrm fieldset ul {}
+.main #mbFrm fieldset ul li {}
+.main #mbFrm fieldset ul li input {}
+.main #mbFrm fieldset ul li label {background-color:blanchedalmond;
+    font-size: 1rem; line-height: 1.5em; letter-spacing: -0.02em;
+    font-weight: 500;
+}
+.main #mbFrm fieldset ul li:nth-of-type(3) > h2 {
+    /* background-color: aqua; */
+    position: relative;
+}
+.main #mbFrm fieldset ul li:nth-of-type(3) a {
+    border: 1px solid #08a600; position: absolute; right: 0;
+    padding: 5px; color: #08a600; background-color: #fff;
+    font-size: 0.875rem;
+}
+.main #mbFrm fieldset ul li label em {color: #08a600;}
+.main #mbFrm fieldset ul li:last-child label em {
+    color: #ccc;
+}
+.main #mbFrm fieldset ul li:first-child label {
+    text-decoration: underline;
+}
+.main #mbFrm fieldset ul li #txt01 {}
+.main #mbFrm fieldset ul li #txt02 {}
+.main #mbFrm fieldset ul li #txt03 {}
+.main #mbFrm fieldset ul li #txt04 {}
+.main #mbFrm fieldset ul li .txt_box {
+    /* width: 100%; */
+    height: 100px;
+    border: 1px solid #ccc;
+    overflow: auto;
+}
+.main #mbFrm fieldset ul li .txt_box h2 {
+    line-height: 1.5em; letter-spacing: -0.02em;
+    padding: 10px 0;
+}
+.main #mbFrm fieldset ul li .txt_box p {
+    font-size: 0.75rem; line-height: 1.5em; letter-spacing: -0.02em;
+    padding-bottom: 30px;
+}
+.main #mbFrm fieldset .submit {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.main #mbFrm fieldset .submit > * {
+    width: 49%;
+    padding: 20px 0; margin: 10px 0;
+}
+.main #mbFrm fieldset .submit #cancel {
+    background-color:#08a600 ;
+}
+.main #mbFrm fieldset .submit #submit {
+    background-color:#cccccc ;
+}
+.main .group_su{
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between; margin: 10px 70px;
+}
+.main .group_su p {
+    font-size: 0.75rem; line-height: 1.5em; letter-spacing: -0.02em;
+}
+.main .group_su a {
+    font-size: 0.75rem; line-height: 1.5em; letter-spacing: -0.02em;
+    text-decoration: underline;
+}
+.main .fnb {background-color:coral;
+    text-align: center; margin-top: 50px 0;
+}
+.main .fnb .top {}
+.main .fnb .top a {
+    font-size: 0.75rem; line-height: 1.5em; letter-spacing: -0.02em;
+}
+.main .fnb .top a::after {
+    content: ''; width: 1px; height: 10px; background-color: #000;
+    display: inline-block; margin: 0 10px;
+}
+.main .fnb .top a:last-child::after {display: none;}
+.main .fnb .copy {}

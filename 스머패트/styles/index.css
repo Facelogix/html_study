@@ -1,0 +1,30 @@
+.start_login {
+    
+}
+.start_login .box {
+    margin:100px auto;
+    background: #f7f9fa;
+    border:1px solid #dae1e6;
+    width: 350px;
+    padding: 50px 20px;
+}
+.start_login .box p {
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+.start_login .box #login{
+    background: #19ce60;
+    padding: 10px 100px;
+    color:white;
+    text-align: center;
+}
+.start_login .box .btm_box{
+    padding-top: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.start_login .box .btm_box a {
+    font-size: 0.75rem;
+    
+}
